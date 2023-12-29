@@ -20,34 +20,36 @@
   min-height: 100vh;
   padding-top: 4em;
   padding-bottom: 4em;
-}
 
-h1 {
-  margin-top: 2em;
-}
+  @media (min-width: 1024px) {
+    h1 {
+      margin-top: 2em;
+    }
+  }
 
-h2,h3 {
-  margin-top: 0.75em;
-}
+  h2,h3 {
+    margin-top: 0.75em;
+  }
 
-p {
-  margin-top: 0.5em;
-}
+  p {
+    margin-top: 0.5em;
+  }
 
-.map {
-  margin-top: 1em;
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 75%; /* 比率を4:3に固定 */
-}
+  .map {
+    margin-top: 1em;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* 比率を4:3に固定 */
+  }
 
-/* Google Mapのiframe */
-.map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  /* Google Mapのiframe */
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>

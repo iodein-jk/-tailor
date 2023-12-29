@@ -29,18 +29,20 @@
   min-height: 100vh;
   padding-top: 4em;
   padding-bottom: 4em;
-}
 
-h1 {
-  margin-top: 2em;
-}
+  @media (min-width: 1024px) {
+    h1 {
+      margin-top: 2em;
+    }
+  }
 
-h2,h3 {
-  margin-top: 0.75em;
-}
+  h2,h3 {
+    margin-top: 0.75em;
+  }
 
-p {
-  margin-top: 0.5em;
+  p {
+    margin-top: 0.5em;
+  }
 }
 
 </style>
