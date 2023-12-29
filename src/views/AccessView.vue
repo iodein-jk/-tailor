@@ -23,7 +23,6 @@
 
 h1 {
   margin-top: 2em;
-  margin-bottom: 1em;
 }
 
 h2,h3 {
@@ -35,6 +34,7 @@ p {
 }
 
 .map {
+  margin-top: 1em;
   position: relative;
   width: 100%;
   height: 0;
