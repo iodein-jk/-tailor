@@ -7,3 +7,9 @@ import TheWelcome from '../components/TheWelcome.vue'
     <TheWelcome />
   </main>
 </template>
+
+<style scoped>
+main {
+  flex: 1;
+}
+</style>

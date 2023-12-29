@@ -25,13 +25,12 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
 }
 
 .logo {
   height: auto;
   display: block;
-  margin: 0 auto 2rem;
+  margin: 3em auto 2rem;
   max-width: 200px;
 }
 
@@ -63,14 +62,16 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
+    place-items: flex-start;
+    margin-top: 5em;
     padding-right: calc(var(--section-gap) / 2);
     position: sticky;
     top: 0;
+    width: 50%;
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 3em 2rem 0 0;
   }
 
   nav {

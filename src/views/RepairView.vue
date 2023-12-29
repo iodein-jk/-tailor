@@ -25,6 +25,7 @@
 <style>
 
 .repair {
+  flex: 1;
   min-height: 100vh;
   padding-top: 4em;
   padding-bottom: 4em;
