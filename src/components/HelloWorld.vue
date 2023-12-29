@@ -7,18 +7,15 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
+    <h3>私たちは、あなたのビジネスや特別な日のための完璧なスーツを作り上げるためのパートナーです。
+      <br>私たちの専門知識と経験を活かして、あなたの個性とスタイルを反映したオーダーメイドのスーツを提供します。</h3>
   </div>
 </template>
 
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 1.8rem;
   position: relative;
   top: -10px;
 }

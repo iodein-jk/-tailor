@@ -5,14 +5,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/mv.png" width="1728" height="3456" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="あなたの完璧なスーツを作り上げるためのパートナー" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/repair">Repair</RouterLink>
+        <RouterLink to="/access">Access</RouterLink>
       </nav>
     </div>
   </header>
@@ -27,8 +29,10 @@ header {
 }
 
 .logo {
+  height: auto;
   display: block;
   margin: 0 auto 2rem;
+  max-width: 200px;
 }
 
 nav {
@@ -48,7 +52,7 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.75rem;
   border-left: 1px solid var(--color-border);
 }
 
@@ -61,6 +65,8 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+    position: sticky;
+    top: 1em;
   }
 
   .logo {
