@@ -66,12 +66,12 @@ nav a:first-of-type {
     margin-top: 5em;
     padding-right: calc(var(--section-gap) / 2);
     position: sticky;
-    top: 0;
+    top: 5em;
     width: 50%;
   }
 
   .logo {
-    margin: 3em 2rem 0 0;
+    margin: 0 2rem 0 0;
   }
 
   nav {
