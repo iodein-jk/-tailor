@@ -66,7 +66,7 @@ nav a:first-of-type {
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
     position: sticky;
-    top: 1em;
+    top: 0;
   }
 
   .logo {
